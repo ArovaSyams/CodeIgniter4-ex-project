@@ -1,0 +1,92 @@
+CRITICAL - 2021-01-05 20:11:51 --> Undefined variable: dd
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Anime.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Anime->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anime))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-05 20:12:00 --> Call to undefined method App\Models\AnimeModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Anime.php(20): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Anime->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anime))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-01-05 20:20:14 --> mysqli_sql_exception: Unknown column 'nama' in 'where clause' in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4app\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4app\system\Model.php(205): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4app\app\Models\AnimeModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4app\app\Controllers\Anime.php(31): App\Models\AnimeModel->getAnime()
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Anime->index()
+#9 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anime))
+#10 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-01-05 20:20:14 --> Unknown column 'nama' in 'where clause'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4app\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4app\system\Model.php(205): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4app\app\Models\AnimeModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4app\app\Controllers\Anime.php(31): App\Models\AnimeModel->getAnime()
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Anime->index()
+#9 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anime))
+#10 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-01-05 21:27:12 --> Undefined variable: alamat
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Teman.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Teman->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teman))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-05 21:51:05 --> Object of class App\Models\TemanModel could not be converted to number
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Teman.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Teman->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teman))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-05 21:51:22 --> Object of class App\Models\TemanModel could not be converted to string
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Teman->index()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teman))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-05 21:52:20 --> Call to a member function paginate() on string
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Teman->index()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teman))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-05 21:53:41 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('teman')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(811): CodeIgniter\Router\Router->handle('teman')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-05 21:55:58 --> Object of class App\Models\TemanModel could not be converted to string
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Teman->index()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teman))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

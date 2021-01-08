@@ -1,0 +1,11 @@
+.poster {
+  width: 80px;
+}
+
+.samping {
+  float: left;
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}

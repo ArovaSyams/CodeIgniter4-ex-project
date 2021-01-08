@@ -1,0 +1,466 @@
+CRITICAL - 2021-01-07 00:43:29 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(9): view('login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 01:29:12 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-07 01:46:21 --> Call to undefined method App\Models\LoginModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(17): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 01:46:42 --> Call to undefined method App\Models\LoginModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(17): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:13:07 --> Undefined index: email
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:44:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:45:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:46:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:48:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:51:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:52:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 02:54:36 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-07 03:30:32 --> Argument 1 passed to CodeIgniter\Session\Session::has() must be of the type string, array given, called in C:\xampp\htdocs\ci4app\app\Controllers\Login.php on line 54
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(54): CodeIgniter\Session\Session->has(Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 03:32:18 --> Argument 1 passed to CodeIgniter\Session\Session::has() must be of the type string, array given, called in C:\xampp\htdocs\ci4app\app\Controllers\Login.php on line 45
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(45): CodeIgniter\Session\Session->has(Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 03:32:29 --> Argument 1 passed to CodeIgniter\Session\Session::has() must be of the type string, array given, called in C:\xampp\htdocs\ci4app\app\Controllers\Login.php on line 45
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(45): CodeIgniter\Session\Session->has(Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 03:33:10 --> Call to a member function has() on null
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-07 03:36:06 --> Illegal offset type in isset or empty
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 03:44:09 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('pages/home', Array, true)
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(18): view('pages/home', Array)
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-01-07 04:01:37 --> Undefined variable: userl
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 04:01:37 --> Undefined variable: userl
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 19:16:49 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:17:45 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:18:03 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:18:41 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:18:46 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:18:47 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:19:00 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:19:31 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:20:40 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:21:40 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:22:33 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:22:33 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:23:12 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:26:15 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(11): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:26:52 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(12): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:32:38 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(15): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:33:37 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(15): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:34:00 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(15): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:35:22 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(15): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:36:11 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(15): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:36:30 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(15): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:38:21 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:38:30 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:38:49 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\logintemp.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(235): CodeIgniter\View\View->render('layout/logintem...', Array, true)
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('/login', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): view('/login')
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-01-07 19:51:55 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('teman')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(811): CodeIgniter\Router\Router->handle('teman')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 20:11:08 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('login')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(811): CodeIgniter\Router\Router->handle('login')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
