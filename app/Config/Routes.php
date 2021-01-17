@@ -35,7 +35,8 @@ $routes->setAutoRoute(true);
 // $routes->get('/coba/(:any)/(:num)', 'About::coba/$1/$2');
 //(:segment) = untuk mengambil semua format text 
 
-$routes->get('/', 'Pages::index');
+$routes->get('/', 'Auth::index');
+$routes->get('/home', 'Pages::index');
 $routes->get('/about', 'Pages::about');
 $routes->get('/contact', 'Pages::contact');
 

@@ -4,6 +4,8 @@
 	"description": "The CodeIgniter framework v4",
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",
+	"minimum-stability": "beta",
+	"prefer-stable": true,
 	"require": {
 		"php": "^7.2 || ^8.0",
 		"ext-curl": "*",
@@ -41,10 +43,8 @@
 	},
 	"scripts": {
 		"post-update-cmd": [
-			"CodeIgniter\\ComposerScripts::postUpdate",
-			"bash admin/setup.sh"
+			"@composer dump-autoload"
 		],
-		"analyze": "phpstan analyze",
 		"test": "phpunit"
 	},
 	"support": {

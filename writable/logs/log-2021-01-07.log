@@ -464,3 +464,178 @@ CRITICAL - 2021-01-07 20:11:08 --> syntax error, unexpected ';'
 #4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2021-01-07 20:39:50 --> Cannot use object of type CodeIgniter\Validation\Validation as array
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(219): include()
+#1 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(23): view('login', Array)
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-01-07 20:40:04 --> Function name must be a string
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(219): include()
+#1 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(23): view('login', Array)
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-01-07 20:40:55 --> wifqoarova17@gmail.com is not a valid rule.
+#0 C:\xampp\htdocs\ci4app\system\Validation\Validation.php(313): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('wifqoarova17@gm...')
+#1 C:\xampp\htdocs\ci4app\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('email', 'email', 'wifqoarova17@gm...', Array, Array)
+#2 C:\xampp\htdocs\ci4app\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(36): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 20:42:24 --> Undefined index: email
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 20:47:22 --> Illegal string offset 'email'
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 21:13:57 --> Undefined variable: email
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 21:17:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Views\login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(26): view('login', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 21:31:14 --> syntax error, unexpected 'session' (T_STRING)
+#0 C:\xampp\htdocs\ci4app\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('login/index')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(811): CodeIgniter\Router\Router->handle('login/index')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 21:33:46 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4app\app\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(19): view('pages/home', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 21:34:03 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4app\app\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(19): view('pages/home', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 21:34:09 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4app\app\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(19): view('pages/home', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 21:38:30 --> Undefined variable: uData
+#0 C:\xampp\htdocs\ci4app\app\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(19): view('pages/home', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 21:54:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 21:55:11 --> Undefined variable: email
+#0 C:\xampp\htdocs\ci4app\app\Views\login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(28): view('login', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 23:35:39 --> Undefined index: email
+#0 C:\xampp\htdocs\ci4app\app\Views\login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(26): view('login', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 23:37:04 --> Undefined index: email
+#0 C:\xampp\htdocs\ci4app\app\Views\login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(27): view('login', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-07 23:37:25 --> Undefined index: email
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-07 23:52:58 --> Call to undefined method App\Models\LoginModel::second
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(22): CodeIgniter\Model->__call('second', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

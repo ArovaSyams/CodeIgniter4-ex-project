@@ -16,7 +16,7 @@
             <?php endif; ?>
 
             <table class="table">
-                <thead class="thead-dark">
+                <thead class="thead-primary">
                     <tr>
                         <th>No.</th>
                         <th>Key Visual</th>

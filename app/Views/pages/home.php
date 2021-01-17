@@ -5,8 +5,8 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Hello World!</h1>
-            <a href="/login/logout" class="btn btn-danger">Log Out</a>
+            <h1 class="mt-4">Hello <?= $uData; ?></h1>
+            <hr>
         </div>
     </div>
 </div>

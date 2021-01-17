@@ -19,7 +19,7 @@ class Anime extends BaseController
         session()->get('email');
 
         if(!session()->has('email')) {
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
 
         $keyword = $this->request->getVar('keyword');
@@ -46,7 +46,7 @@ class Anime extends BaseController
         session()->get('email');
 
         if(!session()->has('email')) {
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
 
         $data = [
@@ -66,7 +66,7 @@ class Anime extends BaseController
         session()->get('email');
 
         if(!session()->has('email')) {
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
         //session();
         $data = [
@@ -81,7 +81,7 @@ class Anime extends BaseController
     {
         //validasi
         if (!$this->validate([
-            'judul' => [
+            'judul' => [    
                 'rules' => 'required|is_unique[anime.judul]',
                 'errors' => [
                     'required' => '{field} Anime Harus Diisi',
@@ -127,7 +127,7 @@ class Anime extends BaseController
         } else {
             //Genetare nama random file gambar
             $namaGambar = $fileGambar->getRandomName();
-            //letakkan di local folde img
+            //letakkan di local folder img
             $fileGambar->move('img', $namaGambar);
         }
 
@@ -167,7 +167,7 @@ class Anime extends BaseController
         session()->get('email');
 
         if(!session()->has('email')) {
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
 
         $data = [

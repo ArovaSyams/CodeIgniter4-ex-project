@@ -6,14 +6,15 @@ class Pages extends BaseController
 {
     public function index()
     {
-        session()->get('email');
+        $uData = session()->get('email');
 
         if (!session()->has('email')) {
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
 
         $data = [
-            'title' => 'Home | Stackware Dev'
+            'title' => 'Home | Stackware Dev',
+            'uData' => $uData['username']
         ];
 
         return view("pages/home", $data);
@@ -24,7 +25,7 @@ class Pages extends BaseController
         session()->get('email');
 
         if (!session()->has('email')) {
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
 
         $data = [
@@ -38,7 +39,7 @@ class Pages extends BaseController
         session()->get('email');
 
         if (!session()->has('email')) {
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
         $data = [
             'title' => 'Contact Us',

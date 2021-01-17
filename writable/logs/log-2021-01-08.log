@@ -1,0 +1,419 @@
+CRITICAL - 2021-01-08 00:07:43 --> Undefined variable: email
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 00:09:15 --> Undefined variable: uEmail
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 00:09:16 --> Undefined variable: uEmail
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 00:36:28 --> Undefined variable: user
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:07:15 --> Cannot use object of type App\Models\LoginModel as array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-01-08 01:07:31 --> Undefined index: email
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:23:06 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:23:40 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:24:35 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:26:43 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:26:57 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:27:32 --> Undefined variable: uData
+#0 C:\xampp\htdocs\ci4app\app\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(19): view('pages/home', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-08 01:27:33 --> Undefined variable: uData
+#0 C:\xampp\htdocs\ci4app\app\Views\pages\home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(219): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1213): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(19): view('pages/home', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-08 01:28:28 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:28:30 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:28:30 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:28:30 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:28:31 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:29:10 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:41:11 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:41:18 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:43:06 --> Undefined index: username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:47:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:48:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-08 01:48:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(931): App\Controllers\Login->loging()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-01-08 02:48:25 --> mysqli_sql_exception: Can't create table `ci4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(67): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 02:52:14 --> mysqli_sql_exception: Can't create table `ci4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(67): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:04:47 --> mysqli_sql_exception: Can't create table `ci4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(67): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:05:24 --> mysqli_sql_exception: Can't create table `ci4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(67): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:11:10 --> mysqli_sql_exception: Can't create table `ci4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(67): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:18:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	CONSTRAINT `pk_auth_tokens` PRIMARY KEY(`id`),
+	CONSTRAIN...' at line 6 in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(67): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:22:20 --> mysqli_sql_exception: Can't create table `ci4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(67): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:24:49 --> mysqli_sql_exception: Incorrect table name 'auth_reset_attempts ' in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `a...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(81): CodeIgniter\Database\Forge->createTable('auth_reset_atte...')
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:28:31 --> mysqli_sql_exception: Incorrect table name 'auth_reset_attempts ' in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `a...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(81): CodeIgniter\Database\Forge->createTable('auth_reset_atte...')
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:35:12 --> mysqli_sql_exception: Can't create table `ci4`.`auth_groups_users` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(148): CodeIgniter\Database\Forge->createTable('auth_groups_use...', true)
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-01-08 03:42:03 --> mysqli_sql_exception: Table 'auth_reset_attempts' already exists in C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `a...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(697): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\ci4app\system\Database\Forge.php(527): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\ci4app\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(81): CodeIgniter\Database\Forge->createTable('auth_reset_atte...')
+#5 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(1055): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\ci4app\system\Database\MigrationRunner.php(204): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ci4app\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ci4app\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ci4app\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(927): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(427): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\ci4app\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\ci4app\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+CRITICAL - 2021-01-08 04:03:24 --> Declaration of Myth\Auth\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
